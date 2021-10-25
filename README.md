@@ -16,6 +16,7 @@ PoS 安全性来源于质押，跨链的质押无法保证安全性。例如 A �
 - [Test Net](https://github.com/octopus-network/octopus-pallets/tree/main/appchain) 官网的地址指向的原 repo 已经 archived
 - [Substrate](https://www.parity.io/technologies/substrate/)
   - [tutorial](https://docs.substrate.io/tutorials/v3/create-your-first-substrate-chain/)
+  - [bilibili](https://space.bilibili.com/67358318/channel/detail?cid=106401)
 - [INTER‑BLOCKCHAIN COMMUNICATION PROTOCOL](https://ibcprotocol.org/)
 - [Near](https://near.org/)
 - [Rainbow Bridge](https://near.org/blog/the-rainbow-bridge-is-live/)

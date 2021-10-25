@@ -71,6 +71,10 @@ curl -H "Accept: application/vnd.github.v3+json" "https://api.github.com/orgs/oc
 
 ## [torum](https://torum.com/)
 
+The first social media platform specially designed for cryptocurrency users.
+
+### intro page
+
 ```bash
 curl "https://intro.torum.com/manifest.json" | jq --compact-output '{short_name: .short_name, name:.name}'
 ```
@@ -78,3 +82,8 @@ curl "https://intro.torum.com/manifest.json" | jq --compact-output '{short_name:
 ```json
 { "short_name": "React App", "name": "Create React App Sample" }
 ```
+
+### feed
+
+- 感觉像是半成品，滚动条适配有问题。
+  ![screenshot](../assets/torum-scrollbar.png)

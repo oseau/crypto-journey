@@ -68,3 +68,13 @@ curl -H "Accept: application/vnd.github.v3+json" "https://api.github.com/orgs/oc
 {"name":"octopus-explorer","updated_at":"2021-09-03T21:35:14Z"}
 {"name":"relay-rpc","updated_at":"2021-09-03T06:35:19Z"}
 ```
+
+## [torum](https://torum.com/)
+
+```bash
+curl "https://intro.torum.com/manifest.json" | jq --compact-output '{short_name: .short_name, name:.name}'
+```
+
+```json
+{ "short_name": "React App", "name": "Create React App Sample" }
+```

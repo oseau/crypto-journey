@@ -27,3 +27,40 @@ PoS 安全性来源于质押，跨链的质押无法保证安全性。例如 A �
 - [Skale](https://skale.network/)
 - [arweave](https://www.arweave.org/) forkable by archiving the appchain block history to Arweave
 - [governance token valuation](https://github.com/coinfund/governance-model)
+
+```bash
+curl -H "Accept: application/vnd.github.v3+json" "https://api.github.com/orgs/octopus-network/repos?type=sources&sort=updated" | jq --compact-output '.[] | {name: .name, updated_at: .updated_at}'
+```
+
+```json
+{"name":"wrapped-appchain-token","updated_at":"2021-10-25T17:11:12Z"}
+{"name":"octopus-webapp","updated_at":"2021-10-25T16:36:51Z"}
+{"name":"octopus-appchain-anchor","updated_at":"2021-10-25T16:13:31Z"}
+{"name":"appchain-native-token","updated_at":"2021-10-25T06:41:07Z"}
+{"name":"octopus-bridge","updated_at":"2021-10-25T04:09:37Z"}
+{"name":"octopus-relay-contract","updated_at":"2021-10-24T15:36:58Z"}
+{"name":"octopus-relay-webapp","updated_at":"2021-10-24T15:32:29Z"}
+{"name":"barnacle","updated_at":"2021-10-24T15:29:22Z"}
+{"name":"octopus-pallets","updated_at":"2021-10-24T14:52:51Z"}
+{"name":"octopus-relayer","updated_at":"2021-10-23T17:36:50Z"}
+{"name":"mock-grandpa","updated_at":"2021-10-23T11:55:46Z"}
+{"name":"planets","updated_at":"2021-10-23T09:23:43Z"}
+{"name":"octopus-appchain-registry","updated_at":"2021-10-23T08:42:48Z"}
+{"name":"substrate-ibc","updated_at":"2021-10-21T07:53:50Z"}
+{"name":"papers","updated_at":"2021-10-21T04:02:53Z"}
+{"name":"octopus-docs","updated_at":"2021-10-20T04:11:23Z"}
+{"name":"octopus-gateway","updated_at":"2021-10-19T08:36:24Z"}
+{"name":"issues","updated_at":"2021-10-14T08:38:45Z"}
+{"name":"oct-token-eth","updated_at":"2021-10-14T01:48:02Z"}
+{"name":"hermes-test","updated_at":"2021-10-12T06:48:21Z"}
+{"name":"oct-faucet","updated_at":"2021-10-11T15:45:34Z"}
+{"name":"appchain-launch","updated_at":"2021-10-10T08:45:33Z"}
+{"name":"pallet-octopus-appchain","updated_at":"2021-10-09T08:30:51Z"}
+{"name":"pallet-octopus-lpos","updated_at":"2021-09-29T17:06:20Z"}
+{"name":"octoup","updated_at":"2021-09-28T09:35:46Z"}
+{"name":"oct-token-vesting-app","updated_at":"2021-09-21T01:51:50Z"}
+{"name":"ibc-demo","updated_at":"2021-09-20T02:00:44Z"}
+{"name":"solana-flux-aggregator","updated_at":"2021-09-18T12:37:11Z"}
+{"name":"octopus-explorer","updated_at":"2021-09-03T21:35:14Z"}
+{"name":"relay-rpc","updated_at":"2021-09-03T06:35:19Z"}
+```

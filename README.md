@@ -86,4 +86,4 @@ curl "https://intro.torum.com/manifest.json" | jq --compact-output '{short_name:
 ### feed
 
 - 感觉像是半成品，滚动条适配有问题。
-  ![screenshot](../assets/torum-scrollbar.png)
+  ![screenshot](assets/torum-scrollbar.png)

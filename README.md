@@ -71,11 +71,15 @@ curl --silent -H "Accept: application/vnd.github.v3+json" \
 {"name":"relay-rpc","updated_at":"2021-09-03T06:35:19Z"}
 ```
 
+### 感想
+
+Octopus Network 的技术团队很活跃，在降低 web3 开发门槛这个方向做了很积极的探索。基于 Substrate 技术栈，使得接入 Octopus Network 生态对现有的 Substrate 项目更具吸引力。同步历史到 arweave 得到的 forkable 降低了项目方对被平台锁定的担忧。但是这些卖点吸引的都是现存的项目方，在做下一个项目的时候可能会更青睐 Octopus Network。目前状态和团队所设想的吸引更多传统开发者投入 web3 开发还有很长一段距离。目前的状态，要做开发还是要翻 Substrate 文档。文档 outdated、各种专业术语和黑话、rust、nodejs、IDE 环境配置、服务器运维，会挡掉绝大多数传统技术人员。理想的状况，可能是 AWS+cloudflare+replit 的结合体。
+
 ## [torum](https://torum.com/)
 
 The first social media platform specially designed for cryptocurrency users.
 
-大致看了下感觉还是 web2 网站。并没有搜索到相关开源信息。Torum Ecosystem 包含 News Board、NFT Market、Airdrop、Lounge（clubhouse clone）、Torumgram（telegram clone）和 Finance。
+Torum Ecosystem 包含 News Board、NFT Market、Airdrop、Lounge（clubhouse clone）、Torumgram（telegram clone）和 Finance。
 
 ### intro page
 
@@ -105,3 +109,7 @@ The first social media platform specially designed for cryptocurrency users.
 - onboarding 做的不错，注册流程会引导关注用户、加入群组。verify 提示中有提醒可以把界面设置为中文。
 - 运营痕迹明显，有每日任务。
 - discord 还算活跃，有人在聊。
+
+### 感想
+
+大致看了下感觉还是 web2 网站。并没有搜索到相关开源信息。计划推出的 app 基本都处在 coming soon 的状态。宣传导向的产品开发节奏，实际产品上线前就已经吸引了用户眼球这点值得学习。运营工作也做的不错，给人感觉项目是在运转中。

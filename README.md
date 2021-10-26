@@ -101,10 +101,11 @@ Torum Ecosystem 包含 News Board、NFT Market、Airdrop、Lounge（clubhouse cl
   - 侧边栏滚动条适配
     ![screenshot](assets/torum-scrollbar.png)
   - 取 feed 流 api 返回非常臃肿。
-    - 不同分辨率的图片地址相同，并且传回了 3 遍。
-    - json 存在 duplicate key，同一级返回了两个名为"created_at"的不同类型的值。
+    - 0, false, null, [] 这些 default value 可以省略
+    - 有"created_dt"返回就不需要"created_at"了
     - 命名混乱，isVideoStream，is_active 混用。
     - 类型混用，比如布尔值同时有 0、1 和 true、false 两种。`is_active: 1, is_deleted: 0, isVideoStream: false, is_following: true`
+    - 不同分辨率的图片地址相同，并且传回了 3 遍。
       ![screenshot](assets/torum-feed.png)
 - onboarding 做的不错，注册流程会引导关注用户、加入群组。verify 提示中有提醒可以把界面设置为中文。
 - 运营痕迹明显，有每日任务。

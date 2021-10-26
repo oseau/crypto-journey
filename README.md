@@ -33,7 +33,9 @@ PoS 安全性来源于质押，跨链的质押无法保证安全性。例如 A �
 ## github stats
 
 ```bash
-curl -H "Accept: application/vnd.github.v3+json" "https://api.github.com/orgs/octopus-network/repos?type=sources&sort=updated" | jq --compact-output '.[] | {name: .name, updated_at: .updated_at}'
+curl --silent -H "Accept: application/vnd.github.v3+json" \
+"https://api.github.com/orgs/octopus-network/repos?type=sources&sort=updated" \
+| jq --compact-output '.[] | {name: .name, updated_at: .updated_at}'
 ```
 
 ```json
@@ -76,7 +78,8 @@ The first social media platform specially designed for cryptocurrency users.
 ### intro page
 
 ```bash
-curl "https://intro.torum.com/manifest.json" | jq --compact-output '{short_name: .short_name, name:.name}'
+curl --silent "https://intro.torum.com/manifest.json" \
+| jq --compact-output '{short_name: .short_name, name:.name}'
 ```
 
 ```json

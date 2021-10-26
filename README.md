@@ -75,18 +75,33 @@ curl --silent -H "Accept: application/vnd.github.v3+json" \
 
 The first social media platform specially designed for cryptocurrency users.
 
+大致看了下感觉还是 web2 网站。并没有搜索到相关开源信息。Torum Ecosystem 包含 News Board、NFT Market、Airdrop、Lounge（clubhouse clone）、Torumgram（telegram clone）和 Finance。
+
 ### intro page
 
-```bash
-curl --silent "https://intro.torum.com/manifest.json" \
-| jq --compact-output '{short_name: .short_name, name:.name}'
-```
+- "Social", "Defi", "NFT Market", "Avatar NFT" call to action 是折叠在一起的，转化率存疑。
+- 感觉像是半成品，工程名都没改。
 
-```json
-{ "short_name": "React App", "name": "Create React App Sample" }
-```
+  ```bash
+  curl --silent "https://intro.torum.com/manifest.json" \
+  | jq --compact-output '{short_name: .short_name, name:.name}'
+  ```
+
+  ```json
+  { "short_name": "React App", "name": "Create React App Sample" }
+  ```
 
 ### feed
 
-- 感觉像是半成品，滚动条适配有问题。
-  ![screenshot](assets/torum-scrollbar.png)
+- 细节比较粗糙。
+  - 侧边栏滚动条适配
+    ![screenshot](assets/torum-scrollbar.png)
+  - 取 feed 流 api 返回非常臃肿。
+    - 不同分辨率的图片地址相同，并且传回了 3 遍。
+    - json 存在 duplicate key，同一级返回了两个名为"created_at"的不同类型的值。
+    - 命名混乱，isVideoStream，is_active 混用。
+    - 类型混用，比如布尔值同时有 0、1 和 true、false 两种。`is_active: 1, is_deleted: 0, isVideoStream: false, is_following: true`
+      ![screenshot](assets/torum-feed.png)
+- onboarding 做的不错，注册流程会引导关注用户、加入群组。verify 提示中有提醒可以把界面设置为中文。
+- 运营痕迹明显，有每日任务。
+- discord 还算活跃，有人在聊。

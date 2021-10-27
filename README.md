@@ -81,6 +81,8 @@ The first social media platform specially designed for cryptocurrency users.
 
 Torum Ecosystem 包含 News Board、NFT Market、Airdrop、Lounge（clubhouse clone）、Torumgram（telegram clone）和 Finance。
 
+- [AMA](https://www.bilibili.com/video/BV1Gi4y1N7GV)
+
 ### intro page
 
 - "Social", "Defi", "NFT Market", "Avatar NFT" call to action 是折叠在一起的，转化率存疑。

@@ -6,6 +6,8 @@ Crypto world from a full-stack developer's prospective
 
 - [Solidity, Blockchain, and Smart Contract Course – Beginner to Expert Python Tutorial](https://www.youtube.com/watch?v=M576WGiDBdQ)
 - [I built a decentralized chat dapp // GUN web3 Tutorial](https://www.youtube.com/watch?v=J5x3OMXjgMc)
+- [figment](https://learn.figment.io/)
+- [alchemy](https://www.alchemy.com)
 
 ## [Octopus Network](https://oct.network/)
 

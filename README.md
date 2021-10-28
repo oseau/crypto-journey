@@ -2,6 +2,11 @@
 
 Crypto world from a full-stack developer's prospective
 
+## tutorials
+
+- [Solidity, Blockchain, and Smart Contract Course – Beginner to Expert Python Tutorial](https://www.youtube.com/watch?v=M576WGiDBdQ)
+- [I built a decentralized chat dapp // GUN web3 Tutorial](https://www.youtube.com/watch?v=J5x3OMXjgMc)
+
 ## [Octopus Network](https://oct.network/)
 
 The Octopus Network is designed to serve appchains by providing flexible and affordable leased security, powerful out-of-box interoperability, and many useful infrastructures.

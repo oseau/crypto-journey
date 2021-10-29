@@ -14,6 +14,17 @@ Crypto world from a full-stack developer's prospective
 
 - [Gun feat. Mark Nadal - An open source cybersecurity protocol for syncing decentralized graph data](https://www.youtube.com/watch?v=_eo_7BxTrmc)
 
+## frameworks
+
+- [gun.js](https://gun.eco/)
+
+  Great docs. Backed by Mozilla. 创始人技术背景，非常 charming and humble，在访谈中说如果开发者在使用 gun.js 过程中有任何问题想了 5 分钟还搞不定就是自己的责任。并且在 console 中留下了联系方式。
+
+  Projects using gun.js:
+
+  - [Iris](https://iris.to/) a P2P alternatives to Instagram made by Bitcoin's second ever developer, Martti Malmi!
+  - [notabug](http://notabug.io/) Reddit clone
+
 ## [Octopus Network](https://oct.network/)
 
 The Octopus Network is designed to serve appchains by providing flexible and affordable leased security, powerful out-of-box interoperability, and many useful infrastructures.

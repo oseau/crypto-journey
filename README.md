@@ -5,9 +5,14 @@ Crypto world from a full-stack developer's prospective
 ## tutorials
 
 - [Solidity, Blockchain, and Smart Contract Course – Beginner to Expert Python Tutorial](https://www.youtube.com/watch?v=M576WGiDBdQ)
+- [GUN Decentralized Graph DB in 100 Seconds](https://www.youtube.com/watch?v=oTQXzhm8w_8)
 - [I built a decentralized chat dapp // GUN web3 Tutorial](https://www.youtube.com/watch?v=J5x3OMXjgMc)
 - [figment](https://learn.figment.io/)
 - [alchemy](https://www.alchemy.com)
+
+## talks
+
+- [Gun feat. Mark Nadal - An open source cybersecurity protocol for syncing decentralized graph data](https://www.youtube.com/watch?v=_eo_7BxTrmc)
 
 ## [Octopus Network](https://oct.network/)
 

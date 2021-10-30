@@ -24,6 +24,8 @@ Crypto world from a full-stack developer's prospective
 
   - [Iris](https://iris.to/) a P2P alternatives to Instagram made by Bitcoin's second ever developer, Martti Malmi!
   - [notabug](http://notabug.io/) Reddit clone
+  - [mask](https://mask.io/) Encrypt your posts & chats on social networks Allow only your friends to decrypt.
+  - [Meething](https://meething.space/)decentralized video chat funded by Mozilla
 
 ## [Octopus Network](https://oct.network/)
 

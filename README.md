@@ -9,6 +9,7 @@ Crypto world from a full-stack developer's prospective
 - [I built a decentralized chat dapp // GUN web3 Tutorial](https://www.youtube.com/watch?v=J5x3OMXjgMc)
 - [figment](https://learn.figment.io/)
 - [alchemy](https://www.alchemy.com)
+- [Rust for beginners - Microsoft](https://www.youtube.com/playlist?list=PLlrxD0HtieHjbTjrchBwOVks_sr8EVW1x)
 
 ## talks
 

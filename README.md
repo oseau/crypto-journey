@@ -11,6 +11,7 @@ Crypto world from a full-stack developer's prospective
 - [alchemy](https://www.alchemy.com)
 - [Rust for beginners - Microsoft](https://www.youtube.com/playlist?list=PLlrxD0HtieHjbTjrchBwOVks_sr8EVW1x)
 - [solana-nfts](https://buildspace.so/solana-nfts)
+- [Blockchain Tutorial for Beginners | Build a DeFi App (Ethereum, Solidity, Web3.js & Truffle)](https://www.youtube.com/watch?v=CgXQC4dbGUE)
 
 ## talks
 

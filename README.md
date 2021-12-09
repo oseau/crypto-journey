@@ -30,6 +30,8 @@ Crypto world from a full-stack developer's prospective
   - [mask](https://mask.io/) Encrypt your posts & chats on social networks Allow only your friends to decrypt.
   - [Meething](https://meething.space/) decentralized video chat funded by Mozilla
 
+- [openzeppelin](https://docs.openzeppelin.com/contracts/4.x/wizard) Contracts Wizard
+
 ## [Octopus Network](https://oct.network/)
 
 The Octopus Network is designed to serve appchains by providing flexible and affordable leased security, powerful out-of-box interoperability, and many useful infrastructures.
